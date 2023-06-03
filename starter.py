@@ -17,7 +17,7 @@ r=9.7
 p=9.8
 print(r+p)
 
-print('hello world')
+print('hello')
 
 print('r','e','d')
 
@@ -34,3 +34,16 @@ print(f)
 
 student_code_names={123,456,789}
 print(student_code_names)
+
+name= input('what is you name?' )
+print('Hello',name)
+greeting= input('How are you faring? ')
+
+
+for letter in 'banana':
+    print(letter)
+
+class Myclass:
+    x=4
+hiclass = Myclass()
+print(hiclass.x)
